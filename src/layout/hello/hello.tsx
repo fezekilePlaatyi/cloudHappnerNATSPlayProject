@@ -5,6 +5,12 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import StarsIcon from "@material-ui/icons/Stars";
 
+// const NATS = require('nats')
+// const nc = NATS.connect()
+ 
+// // Simple Publisher
+// nc.publish('foo', 'Hello World!')
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paper: {
